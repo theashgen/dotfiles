@@ -1,0 +1,15 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Backups
+.dotfiles-backup/
+
+# Editor
+.vscode/
+.idea/
+
+# Runtime data (these stay local, not shared)
+*.log
+.session.json
+.plugins.lock
