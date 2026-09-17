@@ -1,3 +1,11 @@
 onboarding = false
+
 [keys]
 prefix = "ctrl+a"
+next_tab = "prefix+l"
+previous_tab = "prefix+h"
+focus_pane_left = "prefix+shift+h"
+focus_pane_right = "prefix+shift+l"
+focus_pane_up = "prefix+shift+k"
+focus_pane_down = "prefix+shift+j"
+new_workspace = "prefix+shift+c"

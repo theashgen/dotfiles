@@ -81,12 +81,12 @@ echo "Setting up shell configuration..."
 link_file "$DOTFILES_DIR/shell/.zshrc" "$HOME/.zshrc"
 link_file "$DOTFILES_DIR/shell/.zprofile" "$HOME/.zprofile"
 
-# Config directories
+# Config files (individual files only, so auto-generated app files stay local)
 echo ""
 echo "Setting up application configs..."
-link_file "$DOTFILES_DIR/config/opencode" "$HOME/.config/opencode"
-link_file "$DOTFILES_DIR/config/herdr" "$HOME/.config/herdr"
-link_file "$DOTFILES_DIR/config/nvim" "$HOME/.config/nvim"
+link_file "$DOTFILES_DIR/config/opencode/opencode.jsonc" "$HOME/.config/opencode/opencode.jsonc"
+link_file "$DOTFILES_DIR/config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
+link_file "$DOTFILES_DIR/config/nvim/.stylua.toml" "$HOME/.config/nvim/.stylua.toml"
 
 echo ""
 echo "=== Installation Complete ==="
