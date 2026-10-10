@@ -86,7 +86,7 @@ echo ""
 echo "Setting up application configs..."
 link_file "$DOTFILES_DIR/config/opencode/opencode.jsonc" "$HOME/.config/opencode/opencode.jsonc"
 link_file "$DOTFILES_DIR/config/herdr/config.toml" "$HOME/.config/herdr/config.toml"
-link_file "$DOTFILES_DIR/config/nvim/.stylua.toml" "$HOME/.config/nvim/.stylua.toml"
+link_file "$DOTFILES_DIR/config/nvim" "$HOME/.config/nvim"
 
 echo ""
 echo "=== Installation Complete ==="

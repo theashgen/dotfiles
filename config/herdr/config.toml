@@ -9,3 +9,10 @@ focus_pane_right = "prefix+shift+l"
 focus_pane_up = "prefix+shift+k"
 focus_pane_down = "prefix+shift+j"
 new_workspace = "prefix+shift+c"
+
+[experimental]
+kitty_graphics = true
+
+[theme]
+name = "terminal"
+auto_switch = false
